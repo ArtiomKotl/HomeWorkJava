@@ -17,12 +17,13 @@ public class JsonParserTask {
             JSONArray array = (JSONArray) obj;
             for (Object it : array) {
                 JSONObject jsonObject = (JSONObject) it;
-                String builder = "Студент " + jsonObject.get ( "фамилия" ) +
-                        " получил оценку " +
-                        jsonObject.get ( "оценка" ) +
-                        " по предмету " +
-                        jsonObject.get ( "предмет" );
-                System.out.println( builder );
+                StringBuilder builder = new StringBuilder("Студент ");
+                builder.append(jsonObject.get("фамилия"))
+                        .append(" получил оценку ")
+                        .append(jsonObject.get("оценка"))
+                        .append(" по предмету ")
+                        .append(jsonObject.get("предмет"));
+                System.out.println(builder);
             }
 
         } catch (Exception e) {
