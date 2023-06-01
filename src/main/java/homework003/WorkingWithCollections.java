@@ -10,7 +10,7 @@ public class WorkingWithCollections {
         List<Integer> list = new ArrayList<> ();
         Random randomInt = new Random();
         for (int i = 0; i < size; i++) list.add ( randomInt.nextInt ( 101 ) );
-        System.out.printf ("Random list of elements: "  + list);
+        System.out.println ("Random list of elements: "  + list);
 
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i) % 2 == 0) {
