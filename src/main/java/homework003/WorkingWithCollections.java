@@ -32,6 +32,8 @@ public class WorkingWithCollections {
         System.out.println("Maximum List Value = " + maxValue);
         System.out.println("Minimum List Value = " + minValue);
         System.out.println("Average value in the list = " + averageValue);
+        System.out.println("Maximum List Value = " + Collections.max ( list ));
+        System.out.println("Minimum List Value = " + Collections.min ( list ));
     }
 
 
