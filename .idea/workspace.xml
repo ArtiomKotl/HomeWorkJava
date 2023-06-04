@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38deefa8-6a73-455a-8ae8-d7eedadca39d" name="Changes" comment="Exeption другой">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework003/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework003/WorkingWithCollections.java" afterDir="false" />
+    <list default="true" id="38deefa8-6a73-455a-8ae8-d7eedadca39d" name="Changes" comment="добавлен вариант поиска min max">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework004/LinkedListRevers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework004/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework004/MyQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +85,7 @@
       <recent name="HomeWork002" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homework003.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="JsonParserTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork002.JsonParserTask" />
       <module name="HomeWorkJava.main" />
@@ -98,12 +99,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTask02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWork002.MainTask02" />
+    <configuration name="LinkedListRevers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework004.LinkedListRevers" />
       <module name="HomeWorkJava.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeWork002.*" />
+          <option name="PATTERN" value="homework004.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework004.Main" />
+      <module name="HomeWorkJava.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework004.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,19 +131,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HomeWork001.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SQLrequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWork002.SQLrequest" />
-      <module name="HomeWorkJava.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HomeWork002.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListRevers" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.homework003.Main" />
         <item itemvalue="Application.MainTasks" />
         <item itemvalue="Application.JsonParserTask" />
-        <item itemvalue="Application.MainTask02" />
-        <item itemvalue="Application.SQLrequest" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +205,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685309569067</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Задание&#10;&#10;Пусть дан произвольный список целых чисел.&#10;&#10;1) Нужно удалить из него чётные числа&#10;2) Найти минимальное значение&#10;3) Найти максимальное значение&#10;4) Найти среднее значение">
+      <created>1685639042958</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685639042958</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Задание&#10;&#10;Пусть дан произвольный список целых чисел.">
+      <created>1685641857606</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685641857606</updated>
+    </task>
+    <task id="LOCAL-00008" summary="добавлен вариант поиска min max">
+      <created>1685652333837</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685652333838</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +247,9 @@
     <MESSAGE value="Second HomeWork complete task" />
     <MESSAGE value="Дана json-строка (можно сохранить в файл и читать из файла)" />
     <MESSAGE value="Exeption другой" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exeption другой" />
+    <MESSAGE value="Задание&#10;&#10;Пусть дан произвольный список целых чисел.&#10;&#10;1) Нужно удалить из него чётные числа&#10;2) Найти минимальное значение&#10;3) Найти максимальное значение&#10;4) Найти среднее значение" />
+    <MESSAGE value="Задание&#10;&#10;Пусть дан произвольный список целых чисел." />
+    <MESSAGE value="добавлен вариант поиска min max" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлен вариант поиска min max" />
   </component>
 </project>
